@@ -1,4 +1,4 @@
-# SkyWay iOS SDK 次期バージョン API 差分
+# SkyWay iOS SDK 差分情報
 
 ## SKWPeer
 
@@ -55,7 +55,7 @@ audioCodec     | NSString*
 ##### `- (void)getPeerConnectionState:(BOOL)bOutputDebug callback:(void(^)(NSArray*))callback`
 
 コネクションステータスが取得できなくなりました。
-このメソッドは[現在のドキュメント](http://nttcom.github.io/skyway/docs/#iOS)に記載はありません。
+このメソッドは[旧SDKのドキュメント](http://nttcom.github.io/skyway/docs/#iOS)に記載はありません。
 
 ## SKWDataConnection
 
@@ -134,11 +134,11 @@ peerId       | NSString* | `SKWNavigator -getUserMedia` で生成したメディ
 
 ##### `- (void)addVideoRenderer:(SKWVideo*)renderer track:(NSUInteger)trackNo`
 
-[現在のドキュメント](http://nttcom.github.io/skyway/docs/#iOS) の [SKWVideo -addSrc:track:](http://nttcom.github.io/skyway/docs/#iOS-skwvideo-addsrc) に相当するメソッドです。
+[旧SDKのドキュメント](http://nttcom.github.io/skyway/docs/#iOS) の [SKWVideo -addSrc:track:](http://nttcom.github.io/skyway/docs/#iOS-skwvideo-addsrc) に相当するメソッドです。
 
 ##### `- (void)removeVideoRenderer:(SKWVideo*)renderer track:(NSUInteger)trackNo`
 
-[現在のドキュメント](http://nttcom.github.io/skyway/docs/#iOS) の [SKWVideo -removeSrc:track:](http://nttcom.github.io/skyway/docs/#iOS-skwvideo-removesrc) に相当するメソッドです。`-addVideoRenderer:track:` で割り当てた `SKWVideo` インスタンスを取り除きます。
+[旧SDKのドキュメント](http://nttcom.github.io/skyway/docs/#iOS) の [SKWVideo -removeSrc:track:](http://nttcom.github.io/skyway/docs/#iOS-skwvideo-removesrc) に相当するメソッドです。`-addVideoRenderer:track:` で割り当てた `SKWVideo` インスタンスを取り除きます。
 
 ## SKWPeerError
 

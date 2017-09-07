@@ -3,7 +3,7 @@
 2017年9月7日に提供を開始した新SDKと、それまで提供してきた旧SDKの差分情報です。  
 旧SDKと新SDKの間で相互接続はできません。    
 SDKの差し替えに伴い、APIキーの再発行が必要です。  
-詳しくは[マイグレーションに関するWebページ](https://webrtc.ecl.ntt.com/migration.html)をご覧ください。  
+APIキーの再発行については、[マイグレーションに関するWebページ](https://webrtc.ecl.ntt.com/migration.html)をご覧ください。  
 
 ## JavaScript SDK
 

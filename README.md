@@ -1,30 +1,36 @@
-# SkyWay SDK 次期バージョン API 差分
+# SkyWay SDKの差分情報
 
-SkyWayが提供するSDKの次期バージョンにおけるAPIの差分情報です。  
+2017年9月7日に提供を開始した新SDKと、それまで提供してきた旧SDKの差分情報です。
+旧SDKと新SDKの間で相互接続はできません。  
+SDKの差し替えに伴い、APIキーの再発行が必要です。
+詳しくは[マイグレーションに関するWebページ](https://webrtc.ecl.ntt.com/migration.html)をご覧ください。
 
 ## JavaScript SDK
 
-現在次期バージョンのSDKをα版として公開中です。  
-次期バージョンではRoomAPIが追加になっています。
+新SDKはpeer.js互換のAPIに新機能であるRoomAPIが追加されています。  
+peer.jsと差し替えることでそのままご利用いただけます。
 
-- 次期バージョンの情報
-  - http://nttcom.github.io/skyway/alpha-release.html
+- 新バージョンのAPIリファレンス
+  - https://webrtc.ecl.ntt.com/js-reference/
 
-- RoomAPIドキュメント
-  - http://nttcom.github.io/skyway/room-docs.html
-  
 ## Android SDK
 
-次期バージョンのSDKの提供開始時期は未定です。  
-こちらの差分情報は今後変更になる可能性があります。
+旧SDKのAPIと互換性を維持するように作られていますが、一部差分が有ります。  
+以下の情報を参考に差し替えをお願いします。
 
-- 差分のドキュメント
+- SDKのAPI差分情報
   - [android_sdk_next_version_api_diff.md](./android_sdk_next_version_api_diff.md)
+
+- 新バージョンのAPIリファレンス
+  - https://webrtc.ecl.ntt.com/android-reference/
 
 ## iOS SDK
 
-次期バージョンのSDKの提供開始時期は未定です。  
-こちらの差分情報は今後変更になる可能性があります。
+旧SDKのAPIと互換性を維持するように作られていますが、一部差分が有ります。  
+以下の情報を参考に差し替えをお願いします。
 
-- 差分のドキュメント
+- SDKのAPI差分情報
   - [ios_sdk_next_version_api_diff.md](./ios_sdk_next_version_api_diff.md)
+
+- 新バージョンのAPIリファレンス
+  - https://webrtc.ecl.ntt.com/ios-reference/

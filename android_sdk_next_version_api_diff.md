@@ -1,4 +1,4 @@
-# SkyWay Android SDK 次期バージョン API 差分
+# SkyWay Android SDK 差分情報
 
 ## Peer
 
@@ -83,7 +83,7 @@ peerConnection   | peerConnection()
 ##### `public void getPeerConnectionState(OnCallback listener)`
 
 コネクションステータスが取得できなくなりました。
-このメソッドは[現在のドキュメント](http://nttcom.github.io/skyway/docs/#Android)に記載はありません。
+このメソッドは[旧SDKのドキュメント](http://nttcom.github.io/skyway/docs/#Android)に記載はありません。
 
 ## MediaConnection
 
@@ -94,7 +94,7 @@ peerConnection   | peerConnection()
 ##### `public void getPeerConnectionState(OnCallback listener)`
 
 コネクションステータスが取得できなくなりました。
-このメソッドは[現在のドキュメント](http://nttcom.github.io/skyway/docs/#Android)に記載はありません。
+このメソッドは[旧SDKのドキュメント](http://nttcom.github.io/skyway/docs/#Android)に記載はありません。
 
 #### 新規追加
 
@@ -167,11 +167,11 @@ getPeerId()  | String | `Navigator#getUserMedia()` で生成したメディア�
 
 ##### `public void addVideoRenderer(Canvas canvas, int videoTrackNumber)`
 
-[現在のドキュメント](http://nttcom.github.io/skyway/docs/#Android) の [Canvas#addSrc()](http://nttcom.github.io/skyway/docs/#Android-canvas-addsrc) に相当するメソッドです。
+[旧SDKのドキュメント](http://nttcom.github.io/skyway/docs/#Android) の [Canvas#addSrc()](http://nttcom.github.io/skyway/docs/#Android-canvas-addsrc) に相当するメソッドです。
 
 ##### `public void removeVideoRenderer(Canvas canvas, int videoTrackNumber)`
 
-[現在のドキュメント](http://nttcom.github.io/skyway/docs/#Android) の [Canvas#removeSrc()](http://nttcom.github.io/skyway/docs/#Android-canvas-removesrc) に相当するメソッドです。`addVideoRenderer()` で割り当てた `Canvas` インスタンスを取り除きます。
+[旧SDKのドキュメント](http://nttcom.github.io/skyway/docs/#Android) の [Canvas#removeSrc()](http://nttcom.github.io/skyway/docs/#Android-canvas-removesrc) に相当するメソッドです。`addVideoRenderer()` で割り当てた `Canvas` インスタンスを取り除きます。
 
 ## PeerError
 
